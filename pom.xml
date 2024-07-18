@@ -169,7 +169,7 @@
         <oro.version>2.0.8</oro.version>
         <antlr.verison>4.0.4</antlr.verison>
 
-        <log4j2.version>2.17.2</log4j2.version>
+        <log4j2.version>2.23.1</log4j2.version>
         <log4j.version>1.2.17</log4j.version>
         <slf4j.version>1.7.36</slf4j.version>
 
@@ -1325,7 +1325,7 @@
                         </importOrder>
 
                         <!-- remove unused imports -->
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
                         <replaceRegex>
                             <name>Remove wildcard imports</name>
                             <searchRegex>import\s+[^\*\s]+\*;(\r\n|\r|\n)</searchRegex>
@@ -1359,7 +1359,7 @@
                         <excludes>
                             <exclude>**/.github/**/*.md</exclude>
                         </excludes>
-                        <flexmark />
+                        <flexmark/>
                     </markdown>
                 </configuration>
                 <executions>
@@ -1395,7 +1395,7 @@
                         <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                            <notes />
+                            <notes/>
                             <patterns>
                                 <pattern>Licensed to the Apache Software Foundation (ASF) under
                                     one</pattern>
