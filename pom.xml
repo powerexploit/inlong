@@ -121,7 +121,7 @@
         <swagger.annotations.version>1.6.2</swagger.annotations.version>
         <knife4j.version>3.0.3</knife4j.version>
 
-        <commons.io.version>2.11.0</commons.io.version>
+        <commons.io.version>2.14.0</commons.io.version>
         <commons.cli.version>1.4</commons.cli.version>
         <commons.dbutils.version>1.7</commons.dbutils.version>
         <commons.codec.version>1.15</commons.codec.version>
@@ -1325,7 +1325,7 @@
                         </importOrder>
 
                         <!-- remove unused imports -->
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
                         <replaceRegex>
                             <name>Remove wildcard imports</name>
                             <searchRegex>import\s+[^\*\s]+\*;(\r\n|\r|\n)</searchRegex>
@@ -1359,7 +1359,7 @@
                         <excludes>
                             <exclude>**/.github/**/*.md</exclude>
                         </excludes>
-                        <flexmark />
+                        <flexmark/>
                     </markdown>
                 </configuration>
                 <executions>
@@ -1395,7 +1395,7 @@
                         <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                            <notes />
+                            <notes/>
                             <patterns>
                                 <pattern>Licensed to the Apache Software Foundation (ASF) under
                                     one</pattern>
