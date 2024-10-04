@@ -37,7 +37,7 @@
 
     <properties>
         <inlong.root.dir>${project.parent.parent.parent.basedir}</inlong.root.dir>
-        <flink.version>1.18.1</flink.version>
+        <flink.version>1.19.1</flink.version>
         <flink.scala.binary.version>2.12</flink.scala.binary.version>
     </properties>
 
