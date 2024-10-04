@@ -37,7 +37,7 @@
 
     <properties>
         <inlong.root.dir>${project.parent.parent.parent.basedir}</inlong.root.dir>
-        <flink.version>1.13.5</flink.version>
+        <flink.version>1.14.0</flink.version>
         <flink.connector.mongodb.cdc.version>2.3.0</flink.connector.mongodb.cdc.version>
         <flink.connector.redis>1.1.0</flink.connector.redis>
         <flink.scala.binary.version>2.11</flink.scala.binary.version>
