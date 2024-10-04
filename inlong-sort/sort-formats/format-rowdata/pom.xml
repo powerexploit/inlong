@@ -46,7 +46,7 @@
     </modules>
 
     <properties>
-        <flink.version>1.15.4</flink.version>
+        <flink.version>1.19.1</flink.version>
         <inlong.root.dir>${project.parent.parent.parent.basedir}</inlong.root.dir>
     </properties>
 </project>
