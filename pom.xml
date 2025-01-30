@@ -141,7 +141,7 @@
         <fastjson.version>1.2.83</fastjson.version>
 
         <clickhouse-jdbc.version>0.3.1</clickhouse-jdbc.version>
-        <hive2x.version>2.3.7</hive2x.version>
+        <hive2x.version>4.0.1</hive2x.version>
         <hive3x.version>3.1.3</hive3x.version>
         <flume.version>1.10.0</flume.version>
         <hbase.version>2.4.12</hbase.version>
@@ -1325,7 +1325,7 @@
                         </importOrder>
 
                         <!-- remove unused imports -->
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
                         <replaceRegex>
                             <name>Remove wildcard imports</name>
                             <searchRegex>import\s+[^\*\s]+\*;(\r\n|\r|\n)</searchRegex>
@@ -1359,7 +1359,7 @@
                         <excludes>
                             <exclude>**/.github/**/*.md</exclude>
                         </excludes>
-                        <flexmark />
+                        <flexmark/>
                     </markdown>
                 </configuration>
                 <executions>
@@ -1395,7 +1395,7 @@
                         <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                            <notes />
+                            <notes/>
                             <patterns>
                                 <pattern>Licensed to the Apache Software Foundation (ASF) under
                                     one</pattern>
