@@ -78,7 +78,7 @@
         <netty.version>4.1.94.Final</netty.version>
         <jboss.netty.version>3.10.6.Final</jboss.netty.version>
         <scala.binary.version>2.12</scala.binary.version>
-        <spark.version>2.4.4</spark.version>
+        <spark.version>3.2.0</spark.version>
 
         <simpleclient.httpserver.version>0.14.1</simpleclient.httpserver.version>
         <httpcore.version>4.4.14</httpcore.version>
@@ -1325,7 +1325,7 @@
                         </importOrder>
 
                         <!-- remove unused imports -->
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
                         <replaceRegex>
                             <name>Remove wildcard imports</name>
                             <searchRegex>import\s+[^\*\s]+\*;(\r\n|\r|\n)</searchRegex>
@@ -1359,7 +1359,7 @@
                         <excludes>
                             <exclude>**/.github/**/*.md</exclude>
                         </excludes>
-                        <flexmark />
+                        <flexmark/>
                     </markdown>
                 </configuration>
                 <executions>
@@ -1395,7 +1395,7 @@
                         <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                            <notes />
+                            <notes/>
                             <patterns>
                                 <pattern>Licensed to the Apache Software Foundation (ASF) under
                                     one</pattern>
