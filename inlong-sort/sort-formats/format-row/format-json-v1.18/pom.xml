@@ -31,7 +31,7 @@
 
     <properties>
         <inlong.root.dir>${project.parent.parent.parent.parent.basedir}</inlong.root.dir>
-        <flink.version>1.18.1</flink.version>
+        <flink.version>2.0.1</flink.version>
         <flink.shaded.guava.version>31.1-jre-17.0</flink.shaded.guava.version>
         <flink.jackson.version>2.14.2-17.0</flink.jackson.version>
     </properties>
