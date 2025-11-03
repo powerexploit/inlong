@@ -118,7 +118,7 @@
                                 <dependencyReducedPomLocation>${project.basedir}/target/dependency-reduced-pom.xml</dependencyReducedPomLocation>
                                 <createSourcesJar>true</createSourcesJar>
                                 <transformers>
-                                    <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                                    <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                                 </transformers>
                             </configuration>
                         </execution>
@@ -166,7 +166,7 @@
             <!-- End-To-End after refactoring, you need to mention this module under modules. -->
             <properties>
                 <sort.flink.version>v1.13</sort.flink.version>
-                <flink.version>1.13.5</flink.version>
+                <flink.version>2.0.1</flink.version>
                 <flink.minor.version>1.13</flink.minor.version>
                 <flink.scala.binary.version>2.11</flink.scala.binary.version>
                 <flink.jackson.version>2.12.1-13.0</flink.jackson.version>
@@ -185,7 +185,7 @@
             </activation>
             <properties>
                 <sort.flink.version>v1.15</sort.flink.version>
-                <flink.version>1.15.4</flink.version>
+                <flink.version>2.0.1</flink.version>
                 <flink.minor.version>1.15</flink.minor.version>
                 <flink.scala.binary.version>2.12</flink.scala.binary.version>
                 <flink.jackson.version>2.12.1-13.0</flink.jackson.version>
@@ -201,7 +201,7 @@
             <id>v1.18</id>
             <properties>
                 <sort.flink.version>v1.18</sort.flink.version>
-                <flink.version>1.18.1</flink.version>
+                <flink.version>2.0.1</flink.version>
                 <flink.minor.version>1.18</flink.minor.version>
                 <flink.scala.binary.version>2.12</flink.scala.binary.version>
                 <flink.test.utils.artifactId>flink-test-utils</flink.test.utils.artifactId>
