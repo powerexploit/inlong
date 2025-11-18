@@ -83,7 +83,7 @@
         <simpleclient.httpserver.version>0.14.1</simpleclient.httpserver.version>
         <httpcore.version>4.4.14</httpcore.version>
         <httpclient.version>4.5.13</httpclient.version>
-        <okhttp.version>3.14.9</okhttp.version>
+        <okhttp.version>4.9.2</okhttp.version>
         <retrofit.version>2.9.0</retrofit.version>
 
         <spring.boot.version>2.6.15</spring.boot.version>
@@ -1325,7 +1325,7 @@
                         </importOrder>
 
                         <!-- remove unused imports -->
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
                         <replaceRegex>
                             <name>Remove wildcard imports</name>
                             <searchRegex>import\s+[^\*\s]+\*;(\r\n|\r|\n)</searchRegex>
@@ -1359,7 +1359,7 @@
                         <excludes>
                             <exclude>**/.github/**/*.md</exclude>
                         </excludes>
-                        <flexmark />
+                        <flexmark/>
                     </markdown>
                 </configuration>
                 <executions>
@@ -1395,7 +1395,7 @@
                         <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                            <notes />
+                            <notes/>
                             <patterns>
                                 <pattern>Licensed to the Apache Software Foundation (ASF) under
                                     one</pattern>
